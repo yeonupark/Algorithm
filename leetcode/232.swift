@@ -28,21 +28,3 @@ class MyQueue {
         return queue.count == 0
     }
 }
-
-/**
- * Your MyQueue object will be instantiated and called as such:
- * let obj = MyQueue()
- * obj.push(x)
- * let ret_2: Int = obj.pop()
- * let ret_3: Int = obj.peek()
- * let ret_4: Bool = obj.empty()
- */
-
-let obj = MyQueue()
-obj.push(7)
-let ret_3: Int = obj.peek()
-let ret_4: Bool = obj.empty()
-let ret_2: Int = obj.pop()
-print(ret_3)
-print(ret_4)
-print(ret_2)
